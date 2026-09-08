@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en-ZA">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Cloud2Tech — Business Flyer</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+:root{--blue:#1557c0;--cyan:#11afc3;--yellow:#f5c542;--ink:#17324d;--muted:#607286;--line:#e7edf5;--bg:#f7faff}
+*{box-sizing:border-box}body{margin:0;background:#dfe7f1;font-family:Poppins,Arial,sans-serif;color:var(--ink)}
+.flyer{width:794px;min-height:1123px;margin:30px auto;background:#fff;position:relative;overflow:hidden;padding:58px 62px 52px;box-shadow:0 18px 45px #0002}
+.topline{height:7px;width:100%;background:linear-gradient(90deg,var(--blue) 0 62%,var(--cyan) 62% 87%,var(--yellow) 87%)}
+.brand{display:flex;align-items:center;gap:18px;margin-top:38px}.mark{width:68px;height:55px;position:relative}.cloud{position:absolute;left:3px;top:12px;width:62px;height:34px;border:7px solid var(--cyan);border-radius:28px}.cloud:before{content:"";position:absolute;width:27px;height:27px;background:white;border:7px solid var(--cyan);border-radius:50%;left:13px;top:-19px}.cloud:after{content:"";position:absolute;width:5px;height:5px;background:var(--yellow);border-radius:50%;left:18px;top:11px;box-shadow:22px 0 var(--yellow)}
+.wordmark{font-size:39px;line-height:1;font-weight:600;letter-spacing:-1.5px;color:var(--blue)}.wordmark span{color:var(--cyan)}
+.tagline{font-size:14px;font-weight:500;color:var(--muted);margin-top:7px;letter-spacing:.2px}
+.hero{margin-top:72px;max-width:650px}.eyebrow{font-size:14px;font-weight:700;letter-spacing:2px;color:var(--cyan);text-transform:uppercase}.hero h1{font-size:48px;line-height:1.08;letter-spacing:-1.5px;margin:12px 0 18px;color:var(--ink)}.hero p{font-size:18px;line-height:1.7;color:var(--muted);max-width:610px;margin:0}
+.services{margin-top:50px;display:grid;grid-template-columns:1fr 1fr;gap:14px}.service{border:1px solid var(--line);border-radius:13px;padding:18px 18px 17px;background:linear-gradient(135deg,#fff,#f8fbff)}.service strong{display:block;font-size:16px;color:var(--ink);margin-bottom:5px}.service small{font-size:12.5px;line-height:1.45;color:var(--muted)}
+.cta{margin-top:52px;border-radius:18px;background:var(--blue);padding:29px 31px;color:white;display:flex;align-items:center;justify-content:space-between;gap:24px}.cta h2{margin:0 0 5px;font-size:24px}.cta p{margin:0;font-size:13px;opacity:.88}.button{background:white;color:var(--blue);padding:13px 19px;border-radius:9px;font-size:13px;font-weight:700;white-space:nowrap}
+.footer{position:absolute;left:62px;right:62px;bottom:42px;padding-top:18px;border-top:1px solid var(--line);display:flex;justify-content:space-between;align-items:center;font-size:12px;color:var(--muted)}.contact{font-weight:600;color:var(--blue)}
+@media print{body{background:white}.flyer{margin:0;box-shadow:none;width:210mm;min-height:297mm;page-break-after:always}}
+</style>
+</head>
+<body>
+<main class="flyer">
+<div class="topline"></div>
+<header class="brand"><div class="mark"><div class="cloud"></div></div><div><div class="wordmark">Cloud<span>2</span>Tech</div><div class="tagline">Technology that works. Business that grows.</div></div></header>
+<section class="hero"><div class="eyebrow">Small business IT, made simple</div><h1>Professional IT support for your business.</h1><p>Keep your people productive, your devices managed and your business protected — without the cost and complexity of running a large internal IT department.</p></section>
+<section class="services">
+<div class="service"><strong>Microsoft 365</strong><small>Business email, user administration, Microsoft 365 setup and support.</small></div>
+<div class="service"><strong>IT Support</strong><small>Remote troubleshooting for computers, software, accounts and everyday IT issues.</small></div>
+<div class="service"><strong>Device Management</strong><small>Device onboarding, updates, patching, configuration and lifecycle support.</small></div>
+<div class="service"><strong>Cloud Services</strong><small>Practical cloud solutions designed around how your business actually works.</small></div>
+<div class="service"><strong>Cybersecurity</strong><small>Security configuration, access controls, endpoint protection and safer working practices.</small></div>
+<div class="service"><strong>Backup &amp; Data Protection</strong><small>Help protect important business information and recover when things go wrong.</small></div>
+<div class="service"><strong>Websites &amp; Hosting</strong><small>Business websites, domains, hosting, SSL and ongoing website maintenance.</small></div>
+<div class="service"><strong>Business IT Management</strong><small>Ongoing support and technology management as your business grows.</small></div>
+</section>
+<section class="cta"><div><h2>Let’s talk about your IT.</h2><p>Affordable technology solutions for small businesses and startups.</p></div><div class="button">GET IN TOUCH</div></section>
+<footer class="footer"><span>Cloud2Tech</span><span class="contact">Phone • Email • Website</span></footer>
+</main>
+</body>
+</html>
