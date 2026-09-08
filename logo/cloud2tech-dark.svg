@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 260" role="img" aria-labelledby="title desc">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 230" role="img" aria-labelledby="title desc">
   <title id="title">Cloud2Tech dark logo</title>
   <desc id="desc">Cloud2Tech wordmark for dark backgrounds.</desc>
   <defs>
@@ -7,15 +7,14 @@
       <stop offset="1" stop-color="#35E0D4"/>
     </linearGradient>
   </defs>
-  <g transform="translate(35 38)">
+  <g transform="translate(35 23)">
     <path d="M72 137c-31 0-56-22-56-50 0-27 23-49 51-50 11-31 41-52 76-52 39 0 71 27 79 62 4-1 8-2 13-2 27 0 49 20 49 45s-22 45-49 45H72Z" fill="none" stroke="url(#cloud)" stroke-width="18" stroke-linecap="round" stroke-linejoin="round"/>
     <circle cx="108" cy="93" r="8" fill="#FFD45A"/>
     <circle cx="145" cy="75" r="8" fill="#FFD45A"/>
     <circle cx="182" cy="93" r="8" fill="#FFD45A"/>
     <path d="M116 89l22-11m14 0 22 11" fill="none" stroke="#FFD45A" stroke-width="6" stroke-linecap="round"/>
   </g>
-  <text x="300" y="157" font-family="Poppins, Arial, sans-serif" font-size="86" font-weight="700" letter-spacing="-2">
+  <text x="300" y="153" font-family="Poppins, Arial, sans-serif" font-size="86" font-weight="700" letter-spacing="-2">
     <tspan fill="#FFFFFF">Cloud</tspan><tspan fill="#35E0D4">2</tspan><tspan fill="#FFFFFF">Tech</tspan>
   </text>
-  <text x="306" y="202" font-family="Poppins, Arial, sans-serif" font-size="23" font-weight="500" letter-spacing="4" fill="#CBD5E1">PROFESSIONAL IT • SIMPLE PRICING</text>
 </svg>
