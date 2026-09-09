@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1050" height="600" viewBox="0 0 1050 600">
+<defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#f8fcff"/><stop offset="1" stop-color="#eef9fb"/></linearGradient></defs>
+<rect width="1050" height="600" rx="34" fill="url(#g)"/>
+<circle cx="1010" cy="-10" r="210" fill="#11b8c7" opacity=".12"/><circle cx="790" cy="620" r="120" fill="#f5c542" opacity=".18"/>
+<g transform="translate(72 86)"><path d="M8 82h105c22 0 39-16 39-36 0-20-16-36-36-36-7-27-31-46-60-46C25-36 0-14 0 15c-17 4-29 18-29 35 0 18 16 32 37 32z" fill="none" stroke="#11b8c7" stroke-width="13" stroke-linejoin="round"/><circle cx="43" cy="44" r="5" fill="#f5c542"/><circle cx="88" cy="44" r="5" fill="#f5c542"/></g>
+<text x="265" y="156" font-family="Poppins,Arial,sans-serif" font-size="70" font-weight="700" fill="#1557c0">Cloud<tspan fill="#11b8c7">2</tspan>Tech</text>
+<text x="270" y="194" font-family="Poppins,Arial,sans-serif" font-size="18" font-weight="500" fill="#61758a">Technology that works. Business that grows.</text>
+<rect x="72" y="292" width="906" height="2" fill="#dce8ef"/>
+<text x="72" y="378" font-family="Poppins,Arial,sans-serif" font-size="36" font-weight="700" fill="#102a43">Lwazi Mabuza</text>
+<text x="72" y="416" font-family="Poppins,Arial,sans-serif" font-size="19" font-weight="500" fill="#1557c0">Founder · IT &amp; Cloud Services</text>
+<text x="72" y="490" font-family="Poppins,Arial,sans-serif" font-size="17" fill="#61758a">Professional IT support · Microsoft 365 · Cloud · Cybersecurity</text>
+<rect x="848" y="438" width="78" height="78" rx="20" fill="#1557c0" transform="rotate(8 887 477)"/><rect x="868" y="458" width="78" height="78" rx="20" fill="#f5c542" transform="rotate(8 907 497)"/>
+</svg>
