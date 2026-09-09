@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="85mm" height="55mm" viewBox="0 0 850 550">
+<defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#1557c0"/><stop offset="1" stop-color="#11b8c7"/></linearGradient></defs>
+<rect width="850" height="550" rx="34" fill="url(#bg)"/>
+<circle cx="760" cy="80" r="190" fill="#fff" opacity=".06"/><circle cx="60" cy="520" r="150" fill="#f5c542" opacity=".10"/>
+<text x="75" y="85" font-family="Poppins,Arial,sans-serif" font-size="17" font-weight="700" letter-spacing="3" fill="#f5c542">CLOUD-FIRST IT</text>
+<text x="75" y="155" font-family="Poppins,Arial,sans-serif" font-size="44" font-weight="700" fill="#fff">Lwazi Mabuza</text>
+<text x="77" y="190" font-family="Poppins,Arial,sans-serif" font-size="19" font-weight="500" fill="#dffaff">Founder · Cloud2Tech</text>
+<line x1="75" y1="230" x2="775" y2="230" stroke="#fff" opacity=".22"/>
+<text x="75" y="285" font-family="Poppins,Arial,sans-serif" font-size="17" font-weight="600" fill="#fff">IT Support  ·  Microsoft 365  ·  Cloud</text>
+<text x="75" y="320" font-family="Poppins,Arial,sans-serif" font-size="17" font-weight="600" fill="#fff">Device Management  ·  Cybersecurity</text>
+<text x="75" y="355" font-family="Poppins,Arial,sans-serif" font-size="17" font-weight="600" fill="#fff">Websites &amp; Hosting</text>
+<g transform="translate(75 415)"><circle cx="10" cy="10" r="9" fill="#f5c542"/><text x="32" y="17" font-family="Poppins,Arial,sans-serif" font-size="17" font-weight="500" fill="#fff">YOUR PHONE</text><circle cx="260" cy="10" r="9" fill="#f5c542"/><text x="282" y="17" font-family="Poppins,Arial,sans-serif" font-size="17" font-weight="500" fill="#fff">YOUR EMAIL</text></g>
+<text x="75" y="490" font-family="Poppins,Arial,sans-serif" font-size="17" font-weight="600" fill="#fff">cloud2tech.co.za</text>
+<rect x="700" y="465" width="75" height="7" rx="4" fill="#f5c542"/>
+</svg>
