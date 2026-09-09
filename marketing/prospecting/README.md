@@ -12,6 +12,7 @@ This folder provides a repeatable, public-data-only workflow for building and ma
 - `scripts/score_prospects.py` — reproducible 0–100 scoring + package mapping
 - `scripts/normalize_dedupe.py` — normalization and duplicate detection/removal
 - `scripts/export_xlsx.py` — dependency-free CSV → XLSX export
+- `scripts/generate_top_outreach.py` — creates top-N immediate outreach shortlist with messaging priority notes
 
 ## Scope and qualification rules
 
@@ -139,6 +140,18 @@ python3 marketing/prospecting/scripts/validate_dataset.py \
 python3 marketing/prospecting/scripts/export_xlsx.py \
   --input marketing/prospecting/data/prospects_gauteng.csv \
   --output marketing/prospecting/data/prospects_gauteng.xlsx
+
+python3 marketing/prospecting/scripts/generate_top_outreach.py \
+  --input marketing/prospecting/data/prospects_gauteng.csv \
+  --output marketing/prospecting/data/prospects_gauteng_top20.csv \
+  --top 20
+
+python3 marketing/prospecting/scripts/validate_dataset.py \
+  --input marketing/prospecting/data/prospects_gauteng_top20.csv
+
+python3 marketing/prospecting/scripts/export_xlsx.py \
+  --input marketing/prospecting/data/prospects_gauteng_top20.csv \
+  --output marketing/prospecting/data/prospects_gauteng_top20.xlsx
 ```
 
 If dataset quality checks fail, fix rows and rerun.
