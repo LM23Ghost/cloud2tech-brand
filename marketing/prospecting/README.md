@@ -13,6 +13,7 @@ This folder provides a repeatable, public-data-only workflow for building and ma
 - `scripts/normalize_dedupe.py` — normalization and duplicate detection/removal
 - `scripts/export_xlsx.py` — dependency-free CSV → XLSX export
 - `scripts/generate_top_outreach.py` — creates top-N immediate outreach shortlist with messaging priority notes
+- `scripts/generate_tier_a_targets.py` — creates Tier A ideal-customer target list (requires manual employee/M365 verification)
 
 ## Scope and qualification rules
 
@@ -152,6 +153,18 @@ python3 marketing/prospecting/scripts/validate_dataset.py \
 python3 marketing/prospecting/scripts/export_xlsx.py \
   --input marketing/prospecting/data/prospects_gauteng_top20.csv \
   --output marketing/prospecting/data/prospects_gauteng_top20.xlsx
+
+python3 marketing/prospecting/scripts/generate_tier_a_targets.py \
+  --input marketing/prospecting/data/prospects_gauteng.csv \
+  --output marketing/prospecting/data/prospects_gauteng_tier_a_targets.csv \
+  --limit 50
+
+python3 marketing/prospecting/scripts/validate_dataset.py \
+  --input marketing/prospecting/data/prospects_gauteng_tier_a_targets.csv
+
+python3 marketing/prospecting/scripts/export_xlsx.py \
+  --input marketing/prospecting/data/prospects_gauteng_tier_a_targets.csv \
+  --output marketing/prospecting/data/prospects_gauteng_tier_a_targets.xlsx
 ```
 
 If dataset quality checks fail, fix rows and rerun.
