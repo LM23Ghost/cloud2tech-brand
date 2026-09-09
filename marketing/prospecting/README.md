@@ -8,6 +8,8 @@ This folder provides a repeatable, public-data-only workflow for building and ma
 
 - `data/prospects_gauteng.csv` — canonical working dataset (CSV)
 - `data/prospects_gauteng.xlsx` — Excel output generated from CSV
+- `data/prospects_gauteng_5_30_targets.csv` — focused small-business segment where public employee ranges indicate 5–30 fit (or overlap)
+- `data/prospects_gauteng_5_30_targets.xlsx` — Excel export of the 5–30 segment
 - `scripts/validate_dataset.py` — schema + scoring/priority checks
 - `scripts/score_prospects.py` — reproducible 0–100 scoring + package mapping
 - `scripts/normalize_dedupe.py` — normalization and duplicate detection/removal
@@ -165,6 +167,17 @@ python3 marketing/prospecting/scripts/validate_dataset.py \
 python3 marketing/prospecting/scripts/export_xlsx.py \
   --input marketing/prospecting/data/prospects_gauteng_tier_a_targets.csv \
   --output marketing/prospecting/data/prospects_gauteng_tier_a_targets.xlsx
+
+python3 marketing/prospecting/scripts/score_prospects.py \
+  --input marketing/prospecting/data/prospects_gauteng_5_30_targets.csv \
+  --output marketing/prospecting/data/prospects_gauteng_5_30_targets.csv
+
+python3 marketing/prospecting/scripts/validate_dataset.py \
+  --input marketing/prospecting/data/prospects_gauteng_5_30_targets.csv
+
+python3 marketing/prospecting/scripts/export_xlsx.py \
+  --input marketing/prospecting/data/prospects_gauteng_5_30_targets.csv \
+  --output marketing/prospecting/data/prospects_gauteng_5_30_targets.xlsx
 ```
 
 If dataset quality checks fail, fix rows and rerun.
