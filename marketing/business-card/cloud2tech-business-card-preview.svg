@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2200" height="760" viewBox="0 0 2200 760">
+<defs>
+  <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%"><feDropShadow dx="0" dy="18" stdDeviation="18" flood-opacity=".18"/></filter>
+  <linearGradient id="frontBg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#f8fcff"/><stop offset="1" stop-color="#eef9fb"/></linearGradient>
+  <linearGradient id="backBg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#1557c0"/><stop offset="1" stop-color="#11b8c7"/></linearGradient>
+</defs>
+<rect width="2200" height="760" fill="#dfe7f1"/>
+<text x="1100" y="62" text-anchor="middle" font-family="Arial,sans-serif" font-size="34" font-weight="700" fill="#102a43">Cloud2Tech Business Card — Front &amp; Back</text>
+<text x="1100" y="98" text-anchor="middle" font-family="Arial,sans-serif" font-size="18" fill="#61758a">V2-inspired design preview</text>
+
+<!-- FRONT -->
+<g transform="translate(70 130)" filter="url(#shadow)">
+<rect width="1050" height="600" rx="34" fill="url(#frontBg)"/>
+<circle cx="1010" cy="-10" r="210" fill="#11b8c7" opacity=".12"/><circle cx="790" cy="620" r="120" fill="#f5c542" opacity=".18"/>
+<g transform="translate(72 86)"><path d="M8 82h105c22 0 39-16 39-36 0-20-16-36-36-36-7-27-31-46-60-46C25-36 0-14 0 15c-17 4-29 18-29 35 0 18 16 32 37 32z" fill="none" stroke="#11b8c7" stroke-width="13" stroke-linejoin="round"/><circle cx="43" cy="44" r="5" fill="#f5c542"/><circle cx="88" cy="44" r="5" fill="#f5c542"/></g>
+<text x="265" y="156" font-family="Arial,sans-serif" font-size="70" font-weight="700" fill="#1557c0">Cloud<tspan fill="#11b8c7">2</tspan>Tech</text>
+<text x="270" y="194" font-family="Arial,sans-serif" font-size="18" font-weight="500" fill="#61758a">Technology that works. Business that grows.</text>
+<rect x="72" y="292" width="906" height="2" fill="#dce8ef"/>
+<text x="72" y="378" font-family="Arial,sans-serif" font-size="36" font-weight="700" fill="#102a43">Lwazi Mabuza</text>
+<text x="72" y="416" font-family="Arial,sans-serif" font-size="19" font-weight="500" fill="#1557c0">Founder · IT &amp; Cloud Services</text>
+<text x="72" y="490" font-family="Arial,sans-serif" font-size="17" fill="#61758a">Professional IT support · Microsoft 365 · Cloud · Cybersecurity</text>
+<rect x="848" y="438" width="78" height="78" rx="20" fill="#1557c0" transform="rotate(8 887 477)"/><rect x="868" y="458" width="78" height="78" rx="20" fill="#f5c542" transform="rotate(8 907 497)"/>
+</g>
+
+<!-- BACK -->
+<g transform="translate(1080 130)" filter="url(#shadow)">
+<rect width="1050" height="600" rx="34" fill="url(#backBg)"/>
+<circle cx="1000" cy="50" r="230" fill="#fff" opacity=".06"/><circle cx="70" cy="590" r="170" fill="#f5c542" opacity=".12"/>
+<g transform="translate(75 78)"><path d="M8 82h105c22 0 39-16 39-36 0-20-16-36-36-36-7-27-31-46-60-46C25-36 0-14 0 15c-17 4-29 18-29 35 0 18 16 32 37 32z" fill="none" stroke="#fff" stroke-width="13" stroke-linejoin="round"/><circle cx="43" cy="44" r="5" fill="#f5c542"/><circle cx="88" cy="44" r="5" fill="#f5c542"/></g>
+<text x="270" y="148" font-family="Arial,sans-serif" font-size="68" font-weight="700" fill="#fff">Cloud<tspan fill="#f5c542">2</tspan>Tech</text>
+<text x="72" y="282" font-family="Arial,sans-serif" font-size="18" font-weight="700" letter-spacing="3" fill="#f5c542">TECHNOLOGY THAT WORKS</text>
+<text x="72" y="332" font-family="Arial,sans-serif" font-size="31" font-weight="600" fill="#fff">Business that grows.</text>
+<rect x="72" y="390" width="650" height="2" fill="#fff" opacity=".28"/>
+<text x="72" y="443" font-family="Arial,sans-serif" font-size="18" fill="#fff">hello@cloud2tech.co.za</text>
+<text x="72" y="478" font-family="Arial,sans-serif" font-size="18" fill="#fff">www.cloud2tech.co.za</text>
+<text x="72" y="513" font-family="Arial,sans-serif" font-size="18" fill="#fff">South Africa · IT for growing businesses</text>
+<g transform="translate(850 410)"><rect width="88" height="88" rx="22" fill="#f5c542" transform="rotate(8 44 44)"/><path d="M20 52h48" stroke="#102a43" stroke-width="7" stroke-linecap="round"/><path d="M44 25v54" stroke="#102a43" stroke-width="7" stroke-linecap="round"/></g>
+</g>
+</svg>
