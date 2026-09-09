@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1050" height="600" viewBox="0 0 1050 600">
+<defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#1557c0"/><stop offset="1" stop-color="#11b8c7"/></linearGradient></defs>
+<rect width="1050" height="600" rx="34" fill="url(#g)"/>
+<circle cx="1000" cy="50" r="230" fill="#fff" opacity=".06"/><circle cx="70" cy="590" r="170" fill="#f5c542" opacity=".12"/>
+<g transform="translate(75 78)"><path d="M8 82h105c22 0 39-16 39-36 0-20-16-36-36-36-7-27-31-46-60-46C25-36 0-14 0 15c-17 4-29 18-29 35 0 18 16 32 37 32z" fill="none" stroke="#fff" stroke-width="13" stroke-linejoin="round"/><circle cx="43" cy="44" r="5" fill="#f5c542"/><circle cx="88" cy="44" r="5" fill="#f5c542"/></g>
+<text x="270" y="148" font-family="Poppins,Arial,sans-serif" font-size="68" font-weight="700" fill="#fff">Cloud<tspan fill="#f5c542">2</tspan>Tech</text>
+<text x="72" y="282" font-family="Poppins,Arial,sans-serif" font-size="18" font-weight="700" letter-spacing="3" fill="#f5c542">TECHNOLOGY THAT WORKS</text>
+<text x="72" y="332" font-family="Poppins,Arial,sans-serif" font-size="31" font-weight="600" fill="#fff">Business that grows.</text>
+<rect x="72" y="390" width="650" height="2" fill="#fff" opacity=".28"/>
+<text x="72" y="443" font-family="Poppins,Arial,sans-serif" font-size="18" fill="#fff">hello@cloud2tech.co.za</text>
+<text x="72" y="478" font-family="Poppins,Arial,sans-serif" font-size="18" fill="#fff">www.cloud2tech.co.za</text>
+<text x="72" y="513" font-family="Poppins,Arial,sans-serif" font-size="18" fill="#fff">South Africa · IT for growing businesses</text>
+<g transform="translate(850 410)"><rect width="88" height="88" rx="22" fill="#f5c542" transform="rotate(8 44 44)"/><path d="M20 52h48" stroke="#102a43" stroke-width="7" stroke-linecap="round"/><path d="M44 25v54" stroke="#102a43" stroke-width="7" stroke-linecap="round"/></g>
+</svg>
