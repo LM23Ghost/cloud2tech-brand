@@ -16,6 +16,7 @@ This folder provides a repeatable, public-data-only workflow for building and ma
 - `scripts/export_xlsx.py` — dependency-free CSV → XLSX export
 - `scripts/generate_top_outreach.py` — creates top-N immediate outreach shortlist with messaging priority notes
 - `scripts/generate_tier_a_targets.py` — creates Tier A ideal-customer target list (requires manual employee/M365 verification)
+- `scripts/generate_high_win_5_30.py` — strict 5–30 high-win shortlist (target sector + contactable signal + score threshold)
 
 ## Scope and qualification rules
 
@@ -178,6 +179,19 @@ python3 marketing/prospecting/scripts/validate_dataset.py \
 python3 marketing/prospecting/scripts/export_xlsx.py \
   --input marketing/prospecting/data/prospects_gauteng_5_30_targets.csv \
   --output marketing/prospecting/data/prospects_gauteng_5_30_targets.xlsx
+
+python3 marketing/prospecting/scripts/generate_high_win_5_30.py \
+  --input marketing/prospecting/data/prospects_gauteng_5_30_targets.csv \
+  --output marketing/prospecting/data/prospects_gauteng_5_30_high_win.csv \
+  --min-score 60 \
+  --limit 20
+
+python3 marketing/prospecting/scripts/validate_dataset.py \
+  --input marketing/prospecting/data/prospects_gauteng_5_30_high_win.csv
+
+python3 marketing/prospecting/scripts/export_xlsx.py \
+  --input marketing/prospecting/data/prospects_gauteng_5_30_high_win.csv \
+  --output marketing/prospecting/data/prospects_gauteng_5_30_high_win.xlsx
 ```
 
 If dataset quality checks fail, fix rows and rerun.
