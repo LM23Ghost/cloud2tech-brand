@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 900" role="img" aria-label="Cloud2Tech professional IT consultant illustration">
+<defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#102b63"/><stop offset="1" stop-color="#11b9c9"/></linearGradient></defs>
+<rect width="800" height="900" rx="56" fill="url(#bg)"/>
+<circle cx="635" cy="145" r="105" fill="#fff" opacity=".08"/><circle cx="105" cy="760" r="150" fill="#ffe064" opacity=".12"/>
+<!-- cloud --> <path d="M535 92c-20-39-61-66-108-66-59 0-108 42-119 98-7-2-15-3-23-3-52 0-94 42-94 94 0 5 0 10 1 15h343c42 0 76-34 76-76 0-34-22-62-52-72z" fill="#fff" opacity=".16"/>
+<!-- person --> <circle cx="400" cy="280" r="92" fill="#b87955"/>
+<path d="M309 278c3-91 45-130 97-130 62 0 96 50 94 126-21-25-53-39-91-39-38 0-71 15-100 43z" fill="#17223a"/>
+<path d="M355 288c14 12 28 17 45 17 18 0 34-6 47-18" fill="none" stroke="#6c3f30" stroke-width="7" stroke-linecap="round"/>
+<circle cx="365" cy="266" r="6" fill="#17223a"/><circle cx="435" cy="266" r="6" fill="#17223a"/>
+<!-- neck/shirt --> <path d="M350 350h100v82H350z" fill="#a96849"/><path d="M214 775c10-191 76-292 186-292s176 101 186 292z" fill="#fff"/>
+<path d="M300 492l100 105 100-105c54 26 82 85 99 170H201c17-85 45-144 99-170z" fill="#1555a5"/>
+<!-- laptop --> <rect x="215" y="605" width="370" height="205" rx="16" fill="#17223a"/><rect x="237" y="625" width="326" height="164" rx="8" fill="#eaf5f8"/><path d="M168 817h464l-31 30H199z" fill="#fff"/>
+<!-- cloud mark on screen --> <path d="M326 714c0-25 20-45 45-45 19 0 35 11 42 27 5-3 11-4 17-4 23 0 42 19 42 42 0 3 0 7-1 10H326c-18 0-32-14-32-32 0-16 11-29 26-33 1-2 4-4 6-5z" fill="#11b9c9"/><path d="M397 696v62M369 718h56" stroke="#fff" stroke-width="7" stroke-linecap="round"/>
+</svg>
