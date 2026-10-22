@@ -1,13 +1,16 @@
-# Cloud2Tech Gauteng SME Prospecting Workflow
+# Cloud2Tech South Africa SME Prospecting Workflow
 
 Positioning anchor: **“Technology that works. Business that grows.”**
 
-This folder provides a repeatable, public-data-only workflow for building and maintaining a Gauteng SME prospecting dataset for Cloud2Tech outreach.
+This folder provides a repeatable, public-data-only workflow for building and maintaining South African SME prospect datasets for Cloud2Tech outreach.
 
 ## Folder layout
 
 - `data/prospects_gauteng.csv` — canonical working dataset (CSV)
 - `data/prospects_gauteng.xlsx` — Excel output generated from CSV
+- `data/prospects_south_africa.csv` — national working dataset covering all nine provinces
+- `data/prospects_south_africa.xlsx` — Excel output generated from the national dataset
+- `data/prospects_south_africa_researched_additions_20261022.csv` — researched seed prospects from eight provinces outside Gauteng
 - `data/prospects_gauteng_5_30_targets.csv` — focused small-business segment where public employee ranges indicate 5–30 fit (or overlap)
 - `data/prospects_gauteng_5_30_targets.xlsx` — Excel export of the 5–30 segment
 - `scripts/validate_dataset.py` — schema + scoring/priority checks
@@ -21,7 +24,8 @@ This folder provides a repeatable, public-data-only workflow for building and ma
 ## Scope and qualification rules
 
 ### In scope
-- Gauteng businesses (including Johannesburg, Tshwane/Pretoria, Ekurhuleni, Centurion, Midrand, Sandton, Randburg, Roodepoort, Krugersdorp, Benoni, Boksburg, Germiston, Alberton, Springs, Vereeniging, Vanderbijlpark, Soweto, surrounding commercial areas)
+- Businesses across all nine provinces: Eastern Cape, Free State, Gauteng, KwaZulu-Natal, Limpopo, Mpumalanga, North West, Northern Cape, and Western Cape
+- South African commercial centres and surrounding areas, including Johannesburg, Pretoria, Cape Town, Durban, Gqeberha, Bloemfontein, Polokwane, Mbombela, Kimberley, and Potchefstroom
 - SME-leaning businesses (target: roughly 5–100 employees where publicly inferable)
 - Technology-dependent sectors (accounting, legal, medical, engineering, construction, property, professional services, consulting, recruitment, logistics, manufacturing, training/education, NGOs, hospitality, retail)
 
@@ -129,6 +133,24 @@ Implemented by `scripts/normalize_dedupe.py`:
 From repository root:
 
 ```bash
+python3 marketing/prospecting/scripts/normalize_dedupe.py \
+  --input marketing/prospecting/data/prospects_south_africa.csv \
+  --output marketing/prospecting/data/prospects_south_africa.csv \
+  --duplicates marketing/prospecting/data/prospects_south_africa_duplicates_report.csv
+
+python3 marketing/prospecting/scripts/score_prospects.py \
+  --input marketing/prospecting/data/prospects_south_africa.csv \
+  --output marketing/prospecting/data/prospects_south_africa.csv
+
+python3 marketing/prospecting/scripts/validate_dataset.py \
+  --input marketing/prospecting/data/prospects_south_africa.csv
+
+python3 marketing/prospecting/scripts/export_xlsx.py \
+  --input marketing/prospecting/data/prospects_south_africa.csv \
+  --output marketing/prospecting/data/prospects_south_africa.xlsx
+
+# Add researched rows to the national working dataset before running the workflow above.
+
 python3 marketing/prospecting/scripts/normalize_dedupe.py \
   --input marketing/prospecting/data/prospects_gauteng.csv \
   --output marketing/prospecting/data/prospects_gauteng.csv \
